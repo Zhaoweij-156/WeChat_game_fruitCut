@@ -128,7 +128,7 @@ cc.Class({
     // 水果主体旋转函数
     fruit_main_rotate: function() {
         // 水果主体在3秒内按顺时针旋转360°
-        let fruit_main_action_rotate = cc.rotateBy(this.fruit_mainrotate_duration, 360);
+        let fruit_main_action_rotate = cc.rotateBy(this.fruit_main_rotate_duration, 360);
         let fruit_main_action_forever = cc.repeatForever(fruit_main_action_rotate);
         this.node.runAction(fruit_main_action_forever);
     },
