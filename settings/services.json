@@ -14,10 +14,11 @@
 			"support_platform": [
 				"安卓"
 			],
-			"package_download_url": "https://download.cocos.com/CocosUdc/plugins/service-agcapms/0.5.2_1.3.1.300.zip",
-			"package_version_desc": "<p><strong>更新日期：</strong> 2020/10/19<br />\n<strong>更新说明：</strong><br />\n修复某些接口调用失败或崩溃的问题。<br />\n",
+			"package_download_url": "https://download.cocos.com/CocosUdc/plugins/service-agcapms/0.5.3_1.5.2.300.zip",
+			"package_version_desc": "<p><strong>更新日期：</strong> 2021/07/07<br />\n<strong>更新说明：</strong><br />\n1、升级APMS SDK至版本1.5.2.300。<br />\n2、支持自动监控应用ANR的能力，新增enableAnrMonitor方法用来启用和停用该能力。<br />\n3、新增setUserIdentifier方法，用于设置用户标识，方便定位单用户问题。<br />\n",
 			"service_component_name": "service-agcapms",
 			"package_versions": [
+				"0.5.3_1.5.2.300",
 				"0.5.2_1.3.1.300",
 				"0.5.1_1.3.1"
 			],
@@ -310,10 +311,11 @@
 			"support_platform": [
 				"安卓"
 			],
-			"package_download_url": "https://download.cocos.com/CocosUdc/plugins/service-hmsanalytics/0.5.7_5.0.5.301.zip",
-			"package_version_desc": "<p><strong>更新日期：</strong> 2020/12/16<br />\n<strong>更新说明：</strong><br />\n1.新增部分预制事件及参数<br />\n",
+			"package_download_url": "https://download.cocos.com/CocosUdc/plugins/service-hmsanalytics/0.5.8_5.0.5.301.zip",
+			"package_version_desc": "<p><strong>更新日期：</strong> 2021/6/24<br />\n<strong>更新说明：</strong><br />\n修复：与其他服务的冲突<br />\n",
 			"service_component_name": "service-hmsanalytics",
 			"package_versions": [
+				"0.5.8_5.0.5.301",
 				"0.5.7_5.0.5.301",
 				"0.5.5_5.0.5.301",
 				"0.5.3_5.0.1"
@@ -340,10 +342,11 @@
 			"support_platform": [
 				"安卓"
 			],
-			"package_download_url": "https://download.cocos.com/CocosUdc/plugins/service-sdkhub/0.6.6_0.1.1.zip",
-			"package_version_desc": "<p><strong>更新日期：</strong> 2021/05/19<br />\n<strong>更新说明：</strong></p>\n<ol>\n<li>适配Creator 2.4.5</li>\n<li>修复了一些Bug<br />\n",
+			"package_download_url": "https://download.cocos.com/CocosUdc/plugins/service-sdkhub/0.6.8_0.1.1.zip",
+			"package_version_desc": "<p><strong>更新日期：</strong> 2021/06/29<br />\n<strong>更新说明：</strong><br />\n1.添加 Android 平台选项<br />\n",
 			"service_component_name": "service-sdkhub",
 			"package_versions": [
+				"0.6.8_0.1.1",
 				"0.6.6_0.1.1",
 				"0.6.5_0.1.1",
 				"0.6.4_0.1.1",
@@ -399,6 +402,35 @@
 			"require_verify": 0,
 			"service_price": "",
 			"service_protocol": "游戏首次开启该服务时，Cocos会后台通知服务方为游戏开通服务并初始化参数，服务方根据需要可能会获取您的Cocos账户信息，包括账户基本资料、游戏基本资料、账户余额等，点击确认开通按钮即视为您同意该服务访问您的账户信息，详见<a href='https://download.cocos.com/CocosUdc/agreement/Cocos_User_Service_Agreement_cn_20200904.html'>《Cocos用户服务协议》</a>和<a href='https://download.cocos.com/CocosUdc/agreement/Cocos_Privacy_Policy_cn_20200904.html'>《Cocos隐私政策》</a>",
+			"service_group": "",
+			"service_group_id": "",
+			"not_service": false
+		},
+		{
+			"service_id": "314",
+			"service_name": "TradPlus",
+			"service_icon": "https://download.cocos.com/CocosUdc/client/b2b8742053/43934b13863aeea3b3af8c24946d9309.png",
+			"service_desc": "TradPlus 聚合广告平台，为开发者提供专业、便捷和高效的广告变现解决方案。集成了40+ 国内外主流广告平台，支持自动优化、Bidding、用户级数据报表、交叉推广等功能。TradPlus 提供完善的广告漏斗模型，帮助开发者透视广告变现全过程，精准优化广告变现每个环节，实现广告收益最大化。",
+			"service_title": "聚合广告平台，一站聚合，高效变现",
+			"service_guide_url": "https://service.cocos.com/document/zh/tradplusad.html",
+			"service_sample_url": "https://github.com/CocosService/tradplusDemo",
+			"service_dev_url": "https://service.cocos.com/serviceConsole/jump?client_id=314&app_id=<app_id>&language=zh",
+			"service_type": "3",
+			"service_type_zh": "公司和个人游戏",
+			"support_platform": [
+				"安卓",
+				"iOS"
+			],
+			"package_download_url": "https://download.cocos.com/CocosUdc/plugins/service-tradplusad/0.5.3_6.4.4.1_5.7.1.zip",
+			"package_version_desc": "<p><strong>更新日期：</strong> 2021/07/12<br />\n<strong>更新说明：</strong><br />\n新增 TradPlus 广告聚合平台。<br />\n",
+			"service_component_name": "service-tradplusad",
+			"package_versions": [
+				"0.5.3_6.4.4.1_5.7.1"
+			],
+			"build_platform": [],
+			"require_verify": 0,
+			"service_price": "",
+			"service_protocol": "",
 			"service_group": "",
 			"service_group_id": "",
 			"not_service": false

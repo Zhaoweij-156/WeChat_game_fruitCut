@@ -3933,13 +3933,13 @@
     "_enabled": true,
     "alignMode": 1,
     "_target": {
-      "__id__": 5
+      "__id__": 2
     },
     "_alignFlags": 45,
-    "_left": 0,
-    "_right": 0,
-    "_top": 0,
-    "_bottom": 0,
+    "_left": -160,
+    "_right": -160,
+    "_top": -160,
+    "_bottom": -160,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,

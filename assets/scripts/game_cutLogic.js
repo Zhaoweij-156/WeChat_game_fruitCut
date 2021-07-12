@@ -127,6 +127,7 @@ cc.Class({
 
     // 显示游戏主页（菜单界面）函数
     game_index: function() {
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         // 停止正在播放的所有音频
         cc.audioEngine.stopAll();
         // 清空所有的水果和刀光
